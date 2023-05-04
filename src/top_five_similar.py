@@ -83,4 +83,5 @@ def main():
     args = input_parse()
     top_five_similar(args.folder, args.image)
 
-main()
+if __name__ == "__main__":
+    main()
