@@ -9,7 +9,7 @@ python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 
 # run the program
-python3 top_five_similar.py
+python3 ./src/top_five_similar.py
 
 # deactivate virtual environment
 deactivate

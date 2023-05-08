@@ -34,11 +34,11 @@ This repo contains a Python script, ```top_five_similar.py```, which can be used
 The dataset for this project contains 1360 images of flowers. The dataset is a collection of over 1000 images of flowers, sampled from 17 different species. The dataset comes from the Visual Geometry Group at the University of Oxford, and full details of the data can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/).
 
 ### Pipeline
-The Python script :
-1. Import data
-2. Calculate color histograms for all images
-3. Compare input image to all other images
-4. Print and save top-5 similar images dataframe to `out` folder
+The Python script is sectioned as follows:
+1. Import the data
+2. Calculate color histograms for all images in the target folder
+3. Compare target image to all other images
+4. Print and save top-5 most similar images dataframe to `out` folder
 
 ## Requirements
 
@@ -68,7 +68,12 @@ bash WIN_run.sh
 ```
 
 ## Specify target data and image
-You can pass arguments through `argparse` to use other datasets, or compare other flower images from the dataset. To do this, activate the environemt
+You can pass arguments through `argparse` to use other image datasets, or to compare other flower images from the project dataset. To do this, manually activate the virtual environment, and then run the Python script with arguments.
+```
+source ./top_five_similar_venv/Scripts/activate # WINDOWS
+source ./top_five_similar_venv/bin/activate # MAC OR LINUX
+```
+
 
 ```
 top_five_similar.py [-h] [--folder FOLDER] [--image IMAGE]
@@ -79,7 +84,7 @@ options:
   --image IMAGE    Name of the image you want to compare to the rest of the images in the folder
 ```
 
-When running the script, the default values are ``--folder flowers --image image_0001.jpg``.
+When running the script, the default argument values are ``--folder flowers --image image_0001.jpg``.
 
 ### Example output from running script
 ```
