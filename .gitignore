@@ -1,8 +1,5 @@
 # data
-data/
-
-# output
-out/
+data/flowers/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
