@@ -31,7 +31,7 @@ For this assignment, you'll be using ```OpenCV``` to design a simple image searc
 This repo contains a Python script, ```top_five_similar.py```, which can be used to calculate the colour histogram of an image and compare it to all other images in a folder. It returns a csv file with the top 5 most similar images in the folder (when comparing colour histograms), and the distance metric for these images compared to the target image (as calculated by chi-squared).
 
 ### Data
-The dataset for this project contains 1360 images of flowers. The dataset is a collection of over 1000 images of flowers, sampled from 17 different species. The dataset comes from the Visual Geometry Group at the University of Oxford, and full details of the data can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/).
+The dataset for this project contains 1360 images of flowers. The dataset is a collection of over 1000 images of flowers, sampled from 17 different species. The dataset comes from the Visual Geometry Group at the University of Oxford, and full details of the data can be found [here](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/). The data should be stored in a folder called `flowers` within the `data` folder.
 
 ### Pipeline
 The Python script is sectioned as follows:
@@ -113,7 +113,7 @@ In your working directory, you should have two folders: data and out. The data-f
 │
 ├───data
 │   └───flowers
-│           image_1360.jpg
+│           image_1360.jpg   # Make sure to download the data
 ├───out
 │       .gitkeep
 │
