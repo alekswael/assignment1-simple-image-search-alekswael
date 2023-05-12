@@ -1,12 +1,10 @@
-<!-- PROJECT LOGO -->
 <br />
-  <h1 align="center">Visual Analytics Portfolio</h1> 
-  <h2 align="center">Assignment 1: Building a simple image search algorithm</h2> 
-  <h3 align="center">Cultural Data Science, 2023</h3> 
-  <p align="center">
-  Auther: Aleksander Moeslund Wael <br>
+  <h1 align="center">Assignment 1: Building a simple image search algorithm</h1> 
+  <h2 align="center">Cultural Data Science, 2023</h2> 
+  <h3 align="center">
+  Author: Aleksander Moeslund Wael <br>
   Student no. 202005192
-  </p>
+  </h3>
 </p>
 
 ## Assignment notes (Ross)
@@ -26,6 +24,7 @@ For this assignment, you'll be using ```OpenCV``` to design a simple image searc
 |target|0.0|
 |filename1|---|
 |filename2|---|
+---
 
 ## Introduction
 This repo contains a Python script, ```top_five_similar.py```, which can be used to calculate the colour histogram of an image and compare it to all other images in a folder. It returns a csv file with the top 5 most similar images in the folder (when comparing colour histograms), and the distance metric for these images compared to the target image (as calculated by chi-squared).
@@ -100,8 +99,6 @@ Input image: image_0007.jpg
 ```
 
 ## Repository structure
-In your working directory, you should have two folders: data and out. The data-folder should contain a subfolder with the images. The out-folder is the save location for the output .csv file.
-
 ```
 │   .gitignore
 │   README.md
