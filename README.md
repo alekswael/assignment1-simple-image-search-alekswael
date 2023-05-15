@@ -50,8 +50,8 @@ The code is written for Python 3.11.2. Futhermore, if your OS is not unix-based,
 ### 1. Clone repository to desired directory
 
 ```bash
-git clone https://github.com/AU-CDS/assignment1-simple-image-search-alekswael
-cd assignment1-simple-image-search-alekswael
+git clone https://github.com/alekswael/assignment1-simple-image-search
+cd assignment1-simple-image-search
 ```
 ### 2. Run shell script
 
