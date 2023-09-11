@@ -1,30 +1,9 @@
 <br />
-  <h1 align="center">Assignment 1: Building a simple image search algorithm</h1> 
-  <h2 align="center">Cultural Data Science, 2023</h2> 
+  <h1 align="center">A simple image search algorithm</h1> 
   <h3 align="center">
   Author: Aleksander Moeslund Wael <br>
-  Student no. 202005192
   </h3>
 </p>
-
-## Assignment notes (Ross)
-For this assignment, you'll be using ```OpenCV``` to design a simple image search algorithm. For this exercise, you should write some code which does the following:
-
-- Define a particular image that you want to work with
-- For that image
-  - Extract the colour histogram using ```OpenCV```
-- Extract colour histograms for all of the **other* images in the data
-- Compare the histogram of our chosen image to all of the other histograms 
-  - For this, use the ```cv2.compareHist()``` function with the ```cv2.HISTCMP_CHISQR``` metric
-- Find the five images which are most simlar to the target image
-  - Save a CSV file to the folder called ```out```, showing the five most similar images and the distance metric:
-
-|Filename|Distance]
-|---|---|
-|target|0.0|
-|filename1|---|
-|filename2|---|
----
 
 ## Introduction
 This repo contains a Python script, ```top_five_similar.py```, which can be used to calculate the colour histogram of an image and compare it to all other images in a folder. It returns a csv file with the top 5 most similar images in the folder (when comparing colour histograms), and the distance metric for these images compared to the target image (as calculated by chi-squared).
@@ -50,8 +29,8 @@ The code is written for Python 3.11.2. Futhermore, if your OS is not unix-based,
 ### 1. Clone repository to desired directory
 
 ```bash
-git clone https://github.com/alekswael/assignment1-simple-image-search
-cd assignment1-simple-image-search
+git clone https://github.com/alekswael/simple_image_search_opencv
+cd simple_image_search_opencv
 ```
 ### 2. Run shell script
 
